@@ -15,7 +15,9 @@ export default function Home() {
             <Link to="/contact" className="inline-flex items-center rounded-md border border-black/10 dark:border-white/20 px-5 py-2.5 text-sm font-medium hover:bg-black/5 dark:hover:bg-white/10">Contact Me</Link>
           </div>
         </motion.div>
-        <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.1 }} className="aspect-[4/3] w-full rounded-2xl overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-800 dark:to-gray-700"/>
+        <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.1 }} className="aspect-[4/3] w-full rounded-2xl overflow-hidden bg-gray-200 dark:bg-gray-800">
+          <img src="/hero.jpeg" alt="Featured view" className="h-full w-full object-cover"/>
+        </motion.div>
       </section>
       <section className="py-8 md:py-12">
         <h2 className="text-2xl font-semibold">About me</h2>
