@@ -2,7 +2,12 @@ import { useState } from 'react'
 import { usePageMeta } from '../hooks/usePageMeta.js'
 
 const SAMPLE_IMAGES = [
-  '/gallery/1.jpg','/gallery/2.jpg','/gallery/3.jpg','/gallery/4.jpg','/gallery/5.jpg','/gallery/6.jpg'
+  '/gallery/sunrise.jpeg',
+  '/gallery/sun-set.jpeg',
+  '/gallery/beach.jpeg',
+  '/gallery/mountain.jpeg',
+  '/gallery/lake.jpeg',
+  '/gallery/river.jpeg',
 ]
 
 export default function Gallery() {
